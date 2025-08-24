@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Documents Upload</title>
+</head>
+<body>
+  <h3>Documents Upload</h3>
+
+  <form action="submit.html" method="post" enctype="multipart/form-data">
+
+    <label for="bform_cnic">Upload CNIC / B-Form Copy:</label><br>
+    <input type="file" id="bform_cnic" name="bform_cnic" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="father_cnic_copy">Upload Father CNIC Copy:</label><br>
+    <input type="file" id="father_cnic_copy" name="father_cnic_copy" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="mother_cnic_copy">Upload Mother CNIC Copy:</label><br>
+    <input type="file" id="mother_cnic_copy" name="mother_cnic_copy" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="domicile">Upload Domicile Certificate:</label><br>
+    <input type="file" id="domicile" name="domicile" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="income_proof">Upload Income Certificate / Salary Slip:</label><br>
+    <input type="file" id="income_proof" name="income_proof" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="marksheet">Upload Last Exam Marksheet:</label><br>
+    <input type="file" id="marksheet" name="marksheet" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="admission_letter">Upload Admission Letter / Student ID Card:</label><br>
+    <input type="file" id="admission_letter" name="admission_letter" accept=".pdf,.jpg,.jpeg,.png" required>
+    <br><br>
+
+    <label for="photo">Upload Recent Passport Size Photograph:</label><br>
+    <input type="file" id="photo" name="photo" accept="image/*" required>
+    <br><br>
+
+    <label for="disability_cert">Upload Disability Certificate (if applicable):</label><br>
+    <input type="file" id="disability_cert" name="disability_cert" accept=".pdf,.jpg,.jpeg,.png">
+    <br><br>
+
+    <label for="other_docs">Upload Any Other Supporting Documents:</label><br>
+    <input type="file" id="other_docs" name="other_docs" accept=".pdf,.jpg,.jpeg,.png" multiple>
+    <br><br>
+
+    <input type="submit" value="Submit Documents">
+  </form>
+</body>
+</html>

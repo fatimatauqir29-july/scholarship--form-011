@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Information</title>
+</head>
+<body>
+    <h3>Education Information</h3>
+
+    <form action="submit.html" method="post">
+
+        <label>Name of School/College/University:</label>
+        <input type="text" name="institution_name" placeholder="Enter Institution Name" required>
+        <br><br>
+
+        <label>Level of Education:</label>
+        <select name="education_level" required>
+            <option value="">-- Select Level of Education --</option>
+            <option value="matric">Matric</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="bachelor">Bachelor</option>
+            <option value="master">Master</option>
+            <option value="other">Other</option>
+        </select>
+        <br><br>
+
+        <label>Current Class/Grade:</label>
+        <input type="text" name="current_class" placeholder="Enter Class/Grade">
+        <br><br>
+
+        <label>Year of Admission:</label>
+        <input type="number" name="admission_year" placeholder="YYYY" min="1900" max="2099" required>
+        <br><br>
+
+        <label>Year of Passing / Expected Passing Year:</label>
+        <input type="number" name="passing_year" placeholder="YYYY" min="1900" max="2099" required>
+        <br><br>
+
+        <label>Roll Number / Registration Number:</label>
+        <input type="text" name="roll_number" placeholder="Enter Roll No / Reg No" required>
+        <br><br>
+
+        <label>Board/University Name:</label>
+        <input type="text" name="board_university" placeholder="Enter Board/University Name" required>
+        <br><br>
+
+        <label>Marks Obtained:</label>
+        <input type="number" name="marks_obtained" placeholder="Enter Marks Obtained" required>
+        <br><br>
+
+        <label>Total Marks:</label>
+        <input type="number" name="total_marks" placeholder="Enter Total Marks" required>
+        <br><br>
+
+        <label>Percentage / GPA / CGPA:</label>
+        <input type="text" name="percentage" placeholder="Enter Percentage / GPA / CGPA" required>
+        <br><br>
+
+        <label>Previous Scholarships (if any):</label>
+        <textarea name="previous_scholarships" placeholder="Enter details of previous scholarships"></textarea>
+        <br><br>
+
+        <label>Extracurricular Activities / Achievements:</label>
+        <textarea name="extracurricular" placeholder="Enter extracurricular activities or achievements"></textarea>
+        <br><br>
+        <a href="..//other document.html"target="main">other document</a>
+    </form>
+</body>
+</html>

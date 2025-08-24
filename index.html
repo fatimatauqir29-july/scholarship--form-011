@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Scholarship Form</title>
+</head>
+<body>
+    <hr>
+<h1>SCHOLARSHIP FORM</h1>
+<hr>
+<h3>BASICS INFORMATION:</h3>  
+<form>
+  
+    <div> 
+  <label>Name :</label>  
+    <input type="text"placeholder="Entre Your Name" >
+ </div>
+ <br>
+ 
+ <div>
+     <label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob">
+</div>
+<br>
+<label>Select Your Gender:</label>
+<div>
+ <input type="radio" value="Female"name="Gender">
+<label for="Female">Female</label>
+</div>
+<div>
+ <input type="radio" value="Male"name="Gender">
+<label for="Male">Male</label>
+</div>
+<div>
+ <input type="radio" value="Other"name="Gender">
+<label for="Other">Other</label>
+</div>
+<br>
+<label>Marital Status</label>>
+<div>
+<input type="radio" value="Married"name="Marital Status">
+<lable for ="Married">Married</lable>
+</div>
+<div>
+<input type="radio" value="Single"name="Marital Status">
+<lable for ="Single">Single</lable>
+</div>
+<br>
+<div>
+<label>Nationality:</label> 
+<select name="Nationality">
+  <option value=>-- Select Nationality--</option>
+  <option value="pakistani">Pakistani</option>
+  <option value="indian">Indian</option>
+  <option value="bangladeshi">Bangladeshi</option>
+  <option value="chinese">Chinese</option>
+  <option value="american">American</option>
+  <option value="british">British</option>
+  <option value="canadian">Canadian</option>
+  <option value="australian">Australian</option>
+  <option value="saudi">Saudi</option>
+  <option value="turkish">Turkish</option>
+  <option value="other">Other</option>
+</select>
+</div>
+<br>
+<label>CNIC / National ID Number:</label> 
+<!-- <label for="cnic">CNIC Number:</label> -->
+<input type="number"name="cnic" maxlength="15" placeholder="12345-6789012-3">
+<div>
+    <br>
+<label>Disability:</label>
+<input type="radio" value="Yes"name="Disability">
+<lable for ="Yes">Yes</lable>
+<input type="radio" value="No"name="Disability">
+<lable for ="No">No</lable>
+</div>
+<br>
+<div>
+<label>Email</label>
+<input type ="Email"placeholder="Email">
+</div>
+    <br>
+<label>Phone:</label>
+<input type="text" 
+       name="Phone" 
+       placeholder="03XXXXXXXXX" 
+       maxlength="11" 
+       <!-- oninput="this.value=this.value.replace(/[^0-9]/g,'');"  -->
+</div>
+     <br><br>
+<label>Current Address:</label>
+<textarea name="urrent Address"placeholder="Current Address"></textarea>
+<!-- <input type ="text"name="Current Address"placeholder="Current Address" -->
+<div>
+    <br>
+<label> Permanent Address:</label>
+<textarea name="Permanent Address"placeholder="Permanent Address"></textarea>
+</div>
+<br>
+<a href="./New folder/Parent/Guardians information.html"target="main">guardian</a>
+</body>
+</html>
